@@ -57,7 +57,7 @@ memeApp.displayAuthor = (displayAuthor) => {
 // 2) on submit (ie "generate"), display user text in left box, displays quote.body in right box
 // 3) on reset, clear user input, pull new AJAX data, empty two containers
 
-memeApp.events = (displayAuthor) => {
+memeApp.events = () => {
     // smooth scroll
 
     $('.scroll').on('click',function(){
