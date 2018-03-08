@@ -62,7 +62,7 @@ memeApp.events = (displayAuthor) => {
 
     $('.scroll').on('click',function(){
         $('html').animate({
-            scrollTop: $('.authorTitle').offset().top + 30}, 'slow'
+            scrollTop: $('.authorTitle').offset().top}, 'slow'
         );
 
         $('.quoteAPI').addClass('hidden');
